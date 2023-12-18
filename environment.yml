@@ -1,0 +1,13 @@
+name:  LiveAudioLDM_env
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip:
+      - pyo
+      - torch
+      - transformers
+      - diffusers
+      - soundfile
+      - accelerate
+      - openai
