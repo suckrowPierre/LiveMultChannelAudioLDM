@@ -24,7 +24,7 @@ function_schema = {
 
 client = OpenAI(
     # This is the default and can be omitted
-    api_key="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",
+    api_key="",
 )
 
 file = open("QA.txt")
